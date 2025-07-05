@@ -1,0 +1,37 @@
+jessica@DESKTOP-9K6SJ4D:~/exercicio_modulo2$ ls -l
+total 8
+drwxr-xr-x 2 jessica jessica 4096 May 26 20:09 Calculadora_IMC
+-rwxr-xr-x 1 jessica jessica  370 May 26 20:59 calculadora.sh
+jessica@DESKTOP-9K6SJ4D:~/exercicio_modulo2$ chmod +x calculadora.sh
+jessica@DESKTOP-9K6SJ4D:~/exercicio_modulo2$ ls -l
+total 8
+drwxr-xr-x 2 jessica jessica 4096 May 26 20:09 Calculadora_IMC
+-rwxr-xr-x 1 jessica jessica  370 May 26 20:59 calculadora.sh
+jessica@DESKTOP-9K6SJ4D:~/exercicio_modulo2$ chmod 244 calculadora.sh
+jessica@DESKTOP-9K6SJ4D:~/exercicio_modulo2$ ls -l
+total 8
+drwxr-xr-x 2 jessica jessica 4096 May 26 20:09 Calculadora_IMC
+--w-r--r-- 1 jessica jessica  370 May 26 20:59 calculadora.sh
+jessica@DESKTOP-9K6SJ4D:~/exercicio_modulo2$ chmod +x calculadora.sh
+jessica@DESKTOP-9K6SJ4D:~/exercicio_modulo2$ ls -l
+total 8
+drwxr-xr-x 2 jessica jessica 4096 May 26 20:09 Calculadora_IMC
+--wxr-xr-x 1 jessica jessica  370 May 26 20:59 calculadora.sh
+jessica@DESKTOP-9K6SJ4D:~/exercicio_modulo2$ ./calculadora.sh
+/bin/bash: ./calculadora.sh: Permission denied
+jessica@DESKTOP-9K6SJ4D:~/exercicio_modulo2$ chmod +r calculadora.sh
+jessica@DESKTOP-9K6SJ4D:~/exercicio_modulo2$ ls -l
+total 8
+drwxr-xr-x 2 jessica jessica 4096 May 26 20:09 Calculadora_IMC
+-rwxr-xr-x 1 jessica jessica  370 May 26 20:59 calculadora.sh
+jessica@DESKTOP-9K6SJ4D:~/exercicio_modulo2$ ./calculadora.sh
+
+Olá, preencha as informações para obter seu IMC!
+
+Informe seu peso em kg (ex: 80.0):
+80
+Informe sua altura (ex: 1.60):
+1.60
+31.25
+mkdir: cannot create directory ‘/home/jessica/exercicio_modulo2/Calculadora_IMC’: File exists
+jessica@DESKTOP-9K6SJ4D:~/exercicio_modulo2$
